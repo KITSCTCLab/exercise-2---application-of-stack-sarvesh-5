@@ -25,10 +25,10 @@ class Evaluate:
       True if it is empty, else returns False.
     """
       # Write your code here
-      if self.top == -1:
-        return True
-      else:
-        return False
+    if self.top == -1:
+      return True
+     else:
+      return False
 
 
   def pop(self):
